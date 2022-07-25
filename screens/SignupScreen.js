@@ -20,8 +20,8 @@ function SignupScreen() {
         "Authntication failed",
         "Could not sign you in. Please try again later!"
       );
+      setIsAuthenticating(false);
     }
-    setIsAuthenticating(false);
   }
 
   if (isAuthenticating) {
